@@ -21,6 +21,8 @@ p {
   border-radius: 10px;
   padding: 10px;
   font-weight: bold;
+  /* need this moved up 30px */
+  margin-top: 30px;
 }
 
 button {
@@ -40,5 +42,14 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 10%;
     
 }
+
+button:hover {
+  background-color: #000000;
+  color: purple;
+}
+
+/* clear and play again buttons shouldnt be on top of each other */ 
+
